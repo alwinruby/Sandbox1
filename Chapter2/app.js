@@ -1,8 +1,4 @@
-const cx5 = new Car( 4, 'V6', 'green' )
-
-console.log(cx5);
-
-console.log(cx5.carStats());
+sayHi();
 
 class Car {
   constructor(doors, engine, colour){
@@ -16,8 +12,12 @@ class Car {
   }
 }
 
-// const cx5 = new Car( 4, 'V6', 'green' )
-//
-// console.log(cx5);
-//
-// console.log(cx5.carStats());
+const cx5 = new Car( 4, 'V6', 'green' )
+
+console.log(cx5);
+
+console.log(cx5.carStats());
+
+function sayHi(){
+  return console.log('This function can be called from anywhere!');
+}
