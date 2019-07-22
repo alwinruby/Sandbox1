@@ -2,11 +2,11 @@
 
 ###FUNCTIONS
 
-    Hoisted, __CAN__ be overwritten
+    Hoisted can be called anywhere, __CAN__ be overwritten
 
 ###CLASSES
 
-    __NOT__ Hoisted, __CANNOT__  
+    __NOT__ Hoisted cant be called anywhere, __CANNOT__ be overwritten
 
 
 
