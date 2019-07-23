@@ -1,5 +1,3 @@
-sayHi();
-
 class Car {
   constructor(doors, engine, colour){
     this.doors = doors;
@@ -16,20 +14,14 @@ class Car {
     const doors2 = car2.doors;
 
     return doors1 + doors2;
-
   }
-
 }
 
 const cx5 = new Car( 4, 'V6', 'green' )
 const civic = new Car( 3, 'V4', 'red' )
 
 console.log(cx5);
-console.log(cx5.carStats());
-console.log(civic);
-console.log(civic.carStats());
-console.log(Car.totalDoors(cx5, civic));
-
-function sayHi(){
-  return console.log('This function can be called from anywhere!');
-}
+// console.log(cx5.carStats());
+// console.log(civic);
+// console.log(civic.carStats());
+// console.log(Car.totalDoors(cx5, civic));
