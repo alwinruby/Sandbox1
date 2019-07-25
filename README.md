@@ -15,3 +15,7 @@ Build something in React so you are continuously being challenged about building
 Create a class and add methods for reuse.
 
 When you declare a class its automatically in strict mode, this was introduced in ES5.
+
+**Remember only one constructor a Class**
+
+A constructor builds an initial object for us
