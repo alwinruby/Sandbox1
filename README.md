@@ -18,4 +18,8 @@ When you declare a class its automatically in strict mode, this was introduced i
 
 **Remember only one constructor a Class**
 
-A constructor builds an initial object for us
+A constructor builds an initial object for us.
+
+To extend a class to create a new one do it one at a time, normally its fine. Can also use Mixins.
+
+This is not inheritance, but composition.
